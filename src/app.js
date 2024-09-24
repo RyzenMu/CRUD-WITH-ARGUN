@@ -6,6 +6,6 @@ const router = express.Router();
 router.get('/', function(req, res){
     res.send('Hello World');
 });
-app.use('/.netlify/functions/app',router)
+app.use('/.netlify/functions/app',router);
 
 module.exports.handler = serverless(app);
