@@ -8,7 +8,7 @@ router.get('/', function(req, res){
 });
 
 router.get('/test', function(req, res){
-    res.send('Hello test');
+    res.send('Hello test1');
 });
 app.use('/.netlify/functions/app',router);
 
